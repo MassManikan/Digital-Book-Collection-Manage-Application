@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="C:\Users\mani\Desktop\New project.mani\style.css">
+    <link rel="stylesheet" href="C:\Users\mani\Desktop\New project.mani\script.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="Navbar">
+        <h1>
+            Books Store
+        </h1>
+
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h1>
+                Richest man
+
+            </h1>
+            <h2>
+                Sekar
+            </h2>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem, cumque possimus fugit
+                fuga animi, iure adipisci, distinctio sint recusandae numquam natus ab maxime aliquid. Cumque nulla
+                optio reiciendis consectetur.</p>
+
+            <button onclick="deletebook(event)">
+                Delete
+            </button>
+
+        </div>
+    
+    
+    </div>
+
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h1>Add Book</h1>
+        <form>
+            <input type="text" placeholder="book title" id="book-title-input">
+            <input type="text" placeholder="book author" id="book-author-input">
+            <textarea placeholder="short description" id="book-description-input"></textarea>
+            <button id="add-book"> ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+
+        </form>
+
+    </div>
+
+    <button class="add-button" id="add-popup-button">
+        +
+    </button>
+
+    <script src="C:\Users\mani\Desktop\New project.mani\script.js">
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Navbar {
+    background-color: #FD6569;
+    padding: 10px;
+
+}
+
+.container {
+
+    padding: 10px;
+
+}
+
+.book-container h1 {
+    color: #FD6569;
+}
+
+.book-container {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    width: 25%;
+    border-radius: 10px;
+    vertical-align: top;
+
+
+}
+
+.button {
+    background-color: #FD6569;
+}
+
+.book-container button {
+    background-color: #FD6569;
+    color: black;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.add-button {
+    background-color: #FD6569;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    position: fixed;
+    border: none;
+    bottom: 30px;
+    right: 30px;
+
+
+}
+
+.popup-overlay {
+    background-color: black;
+    position: absolute;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  display: none;
+}
+
+.popup-box {
+    background-color: #FD6569;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+display: none;
+    }
+
+.popup-box input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+
+}
+
+.popup-box textarea {
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+
+}
+ .popup-box input::placeholder{
+
+color: black;
+}
+ .popup-box textarea::placeholder{
+    
+    color: black;
+    }
+.popup-box button{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 5px;
+
+}
+.popup-box input:focus{
+    outline: none;
+
+}
+.popup-box  textarea{
+    outline: none;
+
+}
